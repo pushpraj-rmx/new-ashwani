@@ -1659,16 +1659,6 @@ Our Mission Area CSS
   margin-bottom: 0;
   margin-top: 0;
 }
-.our-mission-content.custom ul li {
-  /* flex: 0 0 50%; */
-  /* max-width: 50%; */
-  color: #7d7d7d;
-  font-size: 14.5px;
-  line-height: 1.7;
-  padding-left: 30px;
-  /* padding-right: 30px; */
-  /* padding-top: 25px; */
-}
 .our-mission-content ul li {
   flex: 0 0 50%;
   max-width: 50%;
@@ -1678,6 +1668,17 @@ Our Mission Area CSS
   padding-left: 30px;
   padding-right: 15px;
   padding-top: 25px;
+}
+.our-mission-content.custom ul li {
+  /* flex: ; */
+  flex: 100% !important;
+  max-width: 100%;
+  color: #7d7d7d;
+  font-size: 14.5px;
+  line-height: 1.7;
+  padding-left: 30px !important;
+  /* padding-right: 30px; */
+  padding-top: 0px;
 }
 .our-mission-content ul li .icon {
   margin-bottom: 13px;
