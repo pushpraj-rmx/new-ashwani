@@ -496,9 +496,12 @@ Header Area CSS
 }
 
 .fovia-responsive-nav {
-  display: none;
+  display: block;
 }
 
+.navbar-area {
+  padding-bottom: 20px;
+}
 .navbar-brand {
   padding-top: 0;
   padding-bottom: 0;
