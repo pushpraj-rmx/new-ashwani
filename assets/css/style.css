@@ -1233,7 +1233,7 @@ Main Banner Area CSS
 }
 
 .main-banner {
-  height: 745px;
+  height: 800px;
   position: relative;
   z-index: 1;
   background-position: center center;
@@ -1265,7 +1265,7 @@ Main Banner Area CSS
 }
 .main-banner-content h1 {
   margin-bottom: 0;
-  font-size: 70px;
+  font-size: 65px;
   font-weight: 700;
 }
 .main-banner-content p {
@@ -1659,13 +1659,23 @@ Our Mission Area CSS
   margin-bottom: 0;
   margin-top: 0;
 }
+.our-mission-content.custom ul li {
+  /* flex: 0 0 50%; */
+  /* max-width: 50%; */
+  color: #7d7d7d;
+  font-size: 14.5px;
+  line-height: 1.7;
+  padding-left: 30px;
+  /* padding-right: 30px; */
+  /* padding-top: 25px; */
+}
 .our-mission-content ul li {
   flex: 0 0 50%;
   max-width: 50%;
   color: #7d7d7d;
   font-size: 14.5px;
   line-height: 1.7;
-  padding-left: 15px;
+  padding-left: 30px;
   padding-right: 15px;
   padding-top: 25px;
 }
