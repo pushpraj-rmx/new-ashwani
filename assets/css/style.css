@@ -94,7 +94,18 @@ p:last-child {
   margin-bottom: 0;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #121521;
 }
 
@@ -124,7 +135,8 @@ p:last-child {
   font-family: "Rubik", sans-serif;
   font-weight: 500;
 }
-.btn.disabled, .btn:disabled {
+.btn.disabled,
+.btn:disabled {
   opacity: 1;
 }
 
@@ -147,16 +159,19 @@ p:last-child {
   background-color: #8ee9b2;
   transition: 0.5s;
 }
-.btn-primary.disabled, .btn-primary:disabled {
+.btn-primary.disabled,
+.btn-primary:disabled {
   background: #19ce67;
   color: #ffffff;
 }
-.btn-primary:hover, .btn-primary:focus {
+.btn-primary:hover,
+.btn-primary:focus {
   box-shadow: unset !important;
   background: #121521 !important;
   color: #ffffff !important;
 }
-.btn-primary:hover i, .btn-primary:focus i {
+.btn-primary:hover i,
+.btn-primary:focus i {
   background-color: #ffffff;
   color: #121521;
 }
@@ -179,11 +194,13 @@ p:last-child {
   border-radius: 50%;
   background-color: #f0f0f0;
 }
-.btn-light.disabled, .btn-light:disabled {
+.btn-light.disabled,
+.btn-light:disabled {
   background-color: #ffffff;
   color: #121521;
 }
-.btn-light:hover, .btn-light:focus {
+.btn-light:hover,
+.btn-light:focus {
   background-color: #121521 !important;
   color: #ffffff !important;
   box-shadow: unset !important;
@@ -304,7 +321,8 @@ Preloader Area CSS
   stroke-dashoffset: 48;
   animation: dash 1s linear infinite;
 }
-.preloader::before, .preloader::after {
+.preloader::before,
+.preloader::after {
   content: "";
   position: absolute;
   left: 0;
@@ -322,7 +340,8 @@ Preloader Area CSS
 .preloader.preloader-deactivate {
   visibility: hidden;
 }
-.preloader.preloader-deactivate::after, .preloader.preloader-deactivate::before {
+.preloader.preloader-deactivate::after,
+.preloader.preloader-deactivate::before {
   width: 0;
 }
 .preloader.preloader-deactivate .loader {
@@ -528,7 +547,9 @@ Header Area CSS
   margin-left: 15px;
   margin-right: 15px;
 }
-.fovia-nav .navbar .navbar-nav .nav-item a:hover, .fovia-nav .navbar .navbar-nav .nav-item a:focus, .fovia-nav .navbar .navbar-nav .nav-item a.active {
+.fovia-nav .navbar .navbar-nav .nav-item a:hover,
+.fovia-nav .navbar .navbar-nav .nav-item a:focus,
+.fovia-nav .navbar .navbar-nav .nav-item a.active {
   color: #19ce67;
 }
 .fovia-nav .navbar .navbar-nav .nav-item a i {
@@ -543,7 +564,9 @@ Header Area CSS
 .fovia-nav .navbar .navbar-nav .nav-item:first-child a {
   margin-left: 0;
 }
-.fovia-nav .navbar .navbar-nav .nav-item:hover a, .fovia-nav .navbar .navbar-nav .nav-item:focus a, .fovia-nav .navbar .navbar-nav .nav-item.active a {
+.fovia-nav .navbar .navbar-nav .nav-item:hover a,
+.fovia-nav .navbar .navbar-nav .nav-item:focus a,
+.fovia-nav .navbar .navbar-nav .nav-item.active a {
   color: #19ce67;
 }
 .fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu {
@@ -576,7 +599,9 @@ Header Area CSS
   color: #121521;
   font-size: 14.5px;
 }
-.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
+.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover,
+.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus,
+.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
   color: #19ce67;
 }
 .fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
@@ -588,7 +613,9 @@ Header Area CSS
 .fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
   color: #121521;
 }
-.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
+.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover,
+.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus,
+.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
   color: #19ce67;
 }
 .fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -601,7 +628,9 @@ Header Area CSS
   color: #121521;
   text-transform: capitalize;
 }
-.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover,
+.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus,
+.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
   color: #19ce67;
 }
 .fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -614,7 +643,9 @@ Header Area CSS
   color: #121521;
   text-transform: capitalize;
 }
-.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover,
+.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus,
+.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
   color: #19ce67;
 }
 .fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -627,47 +658,293 @@ Header Area CSS
   color: #121521;
   text-transform: capitalize;
 }
-.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover,
+.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus,
+.fovia-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
   color: #19ce67;
 }
-.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.fovia-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu {
   left: -250px;
   top: 0;
   opacity: 0;
   visibility: hidden;
 }
-.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.fovia-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #121521;
   text-transform: capitalize;
 }
-.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.fovia-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.fovia-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.fovia-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
   color: #19ce67;
 }
-.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.fovia-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu {
   left: -250px;
   top: 0;
   opacity: 0;
   visibility: hidden;
 }
-.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.fovia-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a {
   color: #121521;
   text-transform: capitalize;
 }
-.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.fovia-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:hover,
+.fovia-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a:focus,
+.fovia-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
   color: #19ce67;
 }
-.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+.fovia-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
   color: #19ce67;
 }
-.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.fovia-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li:hover
+  .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: -15px;
 }
-.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+.fovia-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li.active
+  a {
   color: #19ce67;
 }
-.fovia-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.fovia-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li:hover
+  .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: -15px;
@@ -820,7 +1097,8 @@ Header Area CSS
   color: #7d7d7d;
   transition: 0.5s;
 }
-.search-overlay.search-popup .search-form .search-button:hover, .search-overlay.search-popup .search-form .search-button:focus {
+.search-overlay.search-popup .search-form .search-button:hover,
+.search-overlay.search-popup .search-form .search-button:focus {
   color: #19ce67;
 }
 
@@ -1011,7 +1289,7 @@ Main Banner Area CSS
   visibility: hidden;
   transition: 0.5s;
 }
-.home-slides.owl-theme .owl-nav [class*=owl-] {
+.home-slides.owl-theme .owl-nav [class*="owl-"] {
   color: #121521;
   margin: 0;
   padding: 0;
@@ -1029,11 +1307,11 @@ Main Banner Area CSS
   top: 50%;
   transform: translateY(-50%);
 }
-.home-slides.owl-theme .owl-nav [class*=owl-]:hover {
+.home-slides.owl-theme .owl-nav [class*="owl-"]:hover {
   background-color: #19ce67;
   color: #ffffff;
 }
-.home-slides.owl-theme .owl-nav [class*=owl-].owl-next {
+.home-slides.owl-theme .owl-nav [class*="owl-"].owl-next {
   left: auto;
   right: 15px;
 }
@@ -1978,7 +2256,7 @@ Doctor Area CSS
 .doctor-slides.owl-theme .owl-nav {
   margin-top: 0;
 }
-.doctor-slides.owl-theme .owl-nav [class*=owl-] {
+.doctor-slides.owl-theme .owl-nav [class*="owl-"] {
   color: #121521;
   font-size: 14px;
   margin: 0;
@@ -1997,11 +2275,11 @@ Doctor Area CSS
   top: 50%;
   transform: translateY(-50%);
 }
-.doctor-slides.owl-theme .owl-nav [class*=owl-]:hover {
+.doctor-slides.owl-theme .owl-nav [class*="owl-"]:hover {
   background-color: #19ce67;
   color: #ffffff;
 }
-.doctor-slides.owl-theme .owl-nav [class*=owl-].owl-next {
+.doctor-slides.owl-theme .owl-nav [class*="owl-"].owl-next {
   left: auto;
   right: -60px;
 }
@@ -2550,7 +2828,8 @@ Feedback Area CSS
   opacity: 1;
   transform: scale(1);
 }
-.feedback-slides .next-arrow, .feedback-slides .prev-arrow {
+.feedback-slides .next-arrow,
+.feedback-slides .prev-arrow {
   position: absolute;
   width: 40px;
   height: 40px;
@@ -2568,7 +2847,8 @@ Feedback Area CSS
   opacity: 0;
   visibility: hidden;
 }
-.feedback-slides .next-arrow:hover, .feedback-slides .prev-arrow:hover {
+.feedback-slides .next-arrow:hover,
+.feedback-slides .prev-arrow:hover {
   color: #ffffff;
   background-color: #19ce67;
 }
@@ -2578,7 +2858,8 @@ Feedback Area CSS
 .feedback-slides .prev-arrow {
   left: -20px;
 }
-.feedback-slides:hover .next-arrow, .feedback-slides:hover .prev-arrow {
+.feedback-slides:hover .next-arrow,
+.feedback-slides:hover .prev-arrow {
   opacity: 1;
   visibility: visible;
 }
@@ -2715,7 +2996,8 @@ FAQ Area CSS
   margin-left: -7px;
   margin-right: -7px;
 }
-.faq-contact-form form .row .col-lg-12, .faq-contact-form form .row .col-lg-6 {
+.faq-contact-form form .row .col-lg-12,
+.faq-contact-form form .row .col-lg-6 {
   padding-left: 7px;
   padding-right: 7px;
 }
@@ -2731,11 +3013,13 @@ FAQ Area CSS
 .faq-contact-form form .btn.disabled {
   cursor: not-allowed !important;
 }
-.faq-contact-form form .btn.disabled:hover::before, .faq-contact-form form .btn.disabled:focus::before {
+.faq-contact-form form .btn.disabled:hover::before,
+.faq-contact-form form .btn.disabled:focus::before {
   opacity: 1;
   visibility: visible;
 }
-.faq-contact-form form .btn.disabled:hover::after, .faq-contact-form form .btn.disabled:focus::after {
+.faq-contact-form form .btn.disabled:hover::after,
+.faq-contact-form form .btn.disabled:focus::after {
   opacity: 0;
   visibility: hidden;
 }
@@ -2752,7 +3036,8 @@ FAQ Area CSS
   margin-bottom: 0;
   text-align: center !important;
 }
-.faq-contact-form form #msgSubmit.text-danger, .faq-contact-form form #msgSubmit.text-success {
+.faq-contact-form form #msgSubmit.text-danger,
+.faq-contact-form form #msgSubmit.text-success {
   margin-top: 8px;
   font-size: 20px;
   font-weight: 600;
@@ -2786,7 +3071,8 @@ Partner Area CSS
   position: relative;
   margin-bottom: 10px;
 }
-.partner-item a::before, .partner-item a::after {
+.partner-item a::before,
+.partner-item a::after {
   content: "";
   position: absolute;
   width: 0;
@@ -2810,7 +3096,8 @@ Partner Area CSS
 .partner-item a img {
   transition: 0.5s;
 }
-.partner-item a:hover::after, .partner-item a:hover::before {
+.partner-item a:hover::after,
+.partner-item a:hover::before {
   width: 40px;
   height: 40px;
   opacity: 1;
@@ -3067,7 +3354,8 @@ Blog Details Area CSS
   margin-top: 30px;
 }
 
-blockquote, .blockquote {
+blockquote,
+.blockquote {
   overflow: hidden;
   background-color: #fafafa;
   padding: 50px !important;
@@ -3077,7 +3365,8 @@ blockquote, .blockquote {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-blockquote p, .blockquote p {
+blockquote p,
+.blockquote p {
   color: #121521;
   line-height: 1.6;
   margin-bottom: 0;
@@ -3085,10 +3374,12 @@ blockquote p, .blockquote p {
   font-weight: 500;
   font-size: 20px !important;
 }
-blockquote cite, .blockquote cite {
+blockquote cite,
+.blockquote cite {
   display: none;
 }
-blockquote::before, .blockquote::before {
+blockquote::before,
+.blockquote::before {
   color: #efefef;
   content: "\f10e";
   position: absolute;
@@ -3099,7 +3390,8 @@ blockquote::before, .blockquote::before {
   font-size: 140px;
   font-weight: 900;
 }
-blockquote::after, .blockquote::after {
+blockquote::after,
+.blockquote::after {
   content: "";
   position: absolute;
   left: 0;
@@ -3164,7 +3456,8 @@ blockquote::after, .blockquote::after {
   top: 50%;
   transform: translateY(-50%);
 }
-.comments-area ol, .comments-area ul {
+.comments-area ol,
+.comments-area ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
@@ -3285,7 +3578,19 @@ blockquote::after, .blockquote::after {
   color: #121521;
   margin-bottom: 5px;
 }
-.comments-area .comment-respond input[type=date], .comments-area .comment-respond input[type=time], .comments-area .comment-respond input[type=datetime-local], .comments-area .comment-respond input[type=week], .comments-area .comment-respond input[type=month], .comments-area .comment-respond input[type=text], .comments-area .comment-respond input[type=email], .comments-area .comment-respond input[type=url], .comments-area .comment-respond input[type=password], .comments-area .comment-respond input[type=search], .comments-area .comment-respond input[type=tel], .comments-area .comment-respond input[type=number], .comments-area .comment-respond textarea {
+.comments-area .comment-respond input[type="date"],
+.comments-area .comment-respond input[type="time"],
+.comments-area .comment-respond input[type="datetime-local"],
+.comments-area .comment-respond input[type="week"],
+.comments-area .comment-respond input[type="month"],
+.comments-area .comment-respond input[type="text"],
+.comments-area .comment-respond input[type="email"],
+.comments-area .comment-respond input[type="url"],
+.comments-area .comment-respond input[type="password"],
+.comments-area .comment-respond input[type="search"],
+.comments-area .comment-respond input[type="tel"],
+.comments-area .comment-respond input[type="number"],
+.comments-area .comment-respond textarea {
   display: block;
   width: 100%;
   background-color: #ffffff;
@@ -3294,7 +3599,19 @@ blockquote::after, .blockquote::after {
   outline: 0;
   transition: 0.5s;
 }
-.comments-area .comment-respond input[type=date]:focus, .comments-area .comment-respond input[type=time]:focus, .comments-area .comment-respond input[type=datetime-local]:focus, .comments-area .comment-respond input[type=week]:focus, .comments-area .comment-respond input[type=month]:focus, .comments-area .comment-respond input[type=text]:focus, .comments-area .comment-respond input[type=email]:focus, .comments-area .comment-respond input[type=url]:focus, .comments-area .comment-respond input[type=password]:focus, .comments-area .comment-respond input[type=search]:focus, .comments-area .comment-respond input[type=tel]:focus, .comments-area .comment-respond input[type=number]:focus, .comments-area .comment-respond textarea:focus {
+.comments-area .comment-respond input[type="date"]:focus,
+.comments-area .comment-respond input[type="time"]:focus,
+.comments-area .comment-respond input[type="datetime-local"]:focus,
+.comments-area .comment-respond input[type="week"]:focus,
+.comments-area .comment-respond input[type="month"]:focus,
+.comments-area .comment-respond input[type="text"]:focus,
+.comments-area .comment-respond input[type="email"]:focus,
+.comments-area .comment-respond input[type="url"]:focus,
+.comments-area .comment-respond input[type="password"]:focus,
+.comments-area .comment-respond input[type="search"]:focus,
+.comments-area .comment-respond input[type="tel"]:focus,
+.comments-area .comment-respond input[type="number"]:focus,
+.comments-area .comment-respond textarea:focus {
   border-color: #19ce67;
 }
 .comments-area .comment-respond .comment-form-author {
@@ -3351,7 +3668,8 @@ blockquote::after, .blockquote::after {
   font-weight: 500;
   font-size: 14px;
 }
-.comments-area .comment-respond .form-submit input:hover, .comments-area .comment-respond .form-submit input:focus {
+.comments-area .comment-respond .form-submit input:hover,
+.comments-area .comment-respond .form-submit input:focus {
   color: #ffffff;
   background-color: #121521;
 }
@@ -3450,7 +3768,9 @@ Pagination Area CSS
   font-size: 15px;
   font-weight: 600;
 }
-.pagination-area .page-numbers.current, .pagination-area .page-numbers:hover, .pagination-area .page-numbers:focus {
+.pagination-area .page-numbers.current,
+.pagination-area .page-numbers:hover,
+.pagination-area .page-numbers:focus {
   background: #19ce67;
   color: #ffffff;
   box-shadow: 0 2px 10px 0 #19ce67;
@@ -3731,7 +4051,8 @@ Sidebar Widget Area CSS
   margin-top: 8px;
   margin-right: 4px;
 }
-.widget-area .tagcloud a:hover, .widget-area .tagcloud a:focus {
+.widget-area .tagcloud a:hover,
+.widget-area .tagcloud a:focus {
   background-color: #19ce67;
   color: #ffffff;
   border-color: #19ce67;
@@ -3773,12 +4094,14 @@ Sidebar Widget Area CSS
   top: 50%;
   transform: translateY(-50%);
 }
-.widget-area .widget_services_list ul li a.active, .widget-area .widget_services_list ul li a:hover {
+.widget-area .widget_services_list ul li a.active,
+.widget-area .widget_services_list ul li a:hover {
   background-color: #19ce67;
   color: #ffffff;
   padding-left: 20px;
 }
-.widget-area .widget_services_list ul li a.active::before, .widget-area .widget_services_list ul li a:hover::before {
+.widget-area .widget_services_list ul li a.active::before,
+.widget-area .widget_services_list ul li a:hover::before {
   opacity: 1;
   visibility: visible;
   width: 5px;
@@ -3823,12 +4146,14 @@ Sidebar Widget Area CSS
   top: 50%;
   transform: translateY(-50%);
 }
-.widget-area .widget_download ul li a.active, .widget-area .widget_download ul li a:hover {
+.widget-area .widget_download ul li a.active,
+.widget-area .widget_download ul li a:hover {
   background-color: #19ce67;
   color: #ffffff;
   padding-left: 20px;
 }
-.widget-area .widget_download ul li a.active::before, .widget-area .widget_download ul li a:hover::before {
+.widget-area .widget_download ul li a.active::before,
+.widget-area .widget_download ul li a:hover::before {
   opacity: 1;
   visibility: visible;
   width: 5px;
@@ -4196,7 +4521,7 @@ Product Details Area CSS
   margin: auto;
   -webkit-user-select: none;
   -moz-user-select: none;
-       user-select: none;
+  user-select: none;
   cursor: pointer;
 }
 .product-details-desc .buy-checkbox-btn .cbx span {
@@ -4345,15 +4670,18 @@ Product Details Area CSS
   border-radius: 50%;
   transition: 0.5s;
 }
-.products-details-tab .tabs li a:hover, .products-details-tab .tabs li a:focus {
+.products-details-tab .tabs li a:hover,
+.products-details-tab .tabs li a:focus {
   color: #ffffff;
   background-color: #19ce67;
   border-color: #19ce67;
 }
-.products-details-tab .tabs li a:hover .dot, .products-details-tab .tabs li a:focus .dot {
+.products-details-tab .tabs li a:hover .dot,
+.products-details-tab .tabs li a:focus .dot {
   border-color: #ffffff;
 }
-.products-details-tab .tabs li a:hover .dot::before, .products-details-tab .tabs li a:focus .dot::before {
+.products-details-tab .tabs li a:hover .dot::before,
+.products-details-tab .tabs li a:focus .dot::before {
   background: #ffffff;
 }
 .products-details-tab .tabs li.current a {
@@ -4441,7 +4769,15 @@ Product Details Area CSS
   border-top: 1px dashed #eeeeee;
   padding-top: 30px;
 }
-.products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-comments .review-item .rating .fas.fa-star {
+.products-details-tab
+  .tab_content
+  .tabs_item
+  .products-details-tab-content
+  .product-review-form
+  .review-comments
+  .review-item
+  .rating
+  .fas.fa-star {
   color: #ffba0a;
 }
 .products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-comments .review-item .rating i {
@@ -4464,14 +4800,28 @@ Product Details Area CSS
 .products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-comments .review-item p {
   margin-bottom: 0;
 }
-.products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-comments .review-item .review-report-link {
+.products-details-tab
+  .tab_content
+  .tabs_item
+  .products-details-tab-content
+  .product-review-form
+  .review-comments
+  .review-item
+  .review-report-link {
   position: absolute;
   right: 0;
   color: #7d7d7d;
   top: 40px;
   text-decoration: underline;
 }
-.products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-comments .review-item .review-report-link:hover {
+.products-details-tab
+  .tab_content
+  .tabs_item
+  .products-details-tab-content
+  .product-review-form
+  .review-comments
+  .review-item
+  .review-report-link:hover {
   color: #19ce67;
 }
 .products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-form {
@@ -4486,12 +4836,28 @@ Product Details Area CSS
 .products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-form form .form-group {
   margin-bottom: 15px;
 }
-.products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-form form .form-group .form-control {
+.products-details-tab
+  .tab_content
+  .tabs_item
+  .products-details-tab-content
+  .product-review-form
+  .review-form
+  form
+  .form-group
+  .form-control {
   height: 55px;
   box-shadow: 0 5px 28.5px 1.5px rgba(149, 152, 200, 0.1) !important;
   border: none;
 }
-.products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-form form .form-group textarea.form-control {
+.products-details-tab
+  .tab_content
+  .tabs_item
+  .products-details-tab-content
+  .product-review-form
+  .review-form
+  form
+  .form-group
+  textarea.form-control {
   padding-top: 15px;
   height: auto;
 }
@@ -4709,7 +5075,8 @@ Checkout Area CSS
   display: inline-block;
   color: #121521;
 }
-.user-actions span a:hover, .user-actions span a:focus {
+.user-actions span a:hover,
+.user-actions span a:focus {
   color: #19ce67;
 }
 
@@ -4848,11 +5215,15 @@ Checkout Area CSS
 .order-details .order-table table tbody tr td.product-name a:hover {
   color: #19ce67;
 }
-.order-details .order-table table tbody tr td.order-subtotal span, .order-details .order-table table tbody tr td.order-shipping span, .order-details .order-table table tbody tr td.total-price span {
+.order-details .order-table table tbody tr td.order-subtotal span,
+.order-details .order-table table tbody tr td.order-shipping span,
+.order-details .order-table table tbody tr td.total-price span {
   color: #121521;
   font-weight: 500;
 }
-.order-details .order-table table tbody tr td.shipping-price, .order-details .order-table table tbody tr td.order-subtotal-price, .order-details .order-table table tbody tr td.product-subtotal {
+.order-details .order-table table tbody tr td.shipping-price,
+.order-details .order-table table tbody tr td.order-subtotal-price,
+.order-details .order-table table tbody tr td.product-subtotal {
   font-weight: 500;
 }
 .order-details .payment-box {
@@ -4864,10 +5235,12 @@ Checkout Area CSS
 .order-details .payment-box .payment-method p {
   font-size: 14px;
 }
-.order-details .payment-box .payment-method p [type=radio]:checked, .order-details .payment-box .payment-method p [type=radio]:not(:checked) {
+.order-details .payment-box .payment-method p [type="radio"]:checked,
+.order-details .payment-box .payment-method p [type="radio"]:not(:checked) {
   display: none;
 }
-.order-details .payment-box .payment-method p [type=radio]:checked + label, .order-details .payment-box .payment-method p [type=radio]:not(:checked) + label {
+.order-details .payment-box .payment-method p [type="radio"]:checked + label,
+.order-details .payment-box .payment-method p [type="radio"]:not(:checked) + label {
   padding-left: 27px;
   cursor: pointer;
   display: block;
@@ -4876,7 +5249,8 @@ Checkout Area CSS
   margin-bottom: 8px;
   font-weight: 500;
 }
-.order-details .payment-box .payment-method p [type=radio]:checked + label::before, .order-details .payment-box .payment-method p [type=radio]:not(:checked) + label::before {
+.order-details .payment-box .payment-method p [type="radio"]:checked + label::before,
+.order-details .payment-box .payment-method p [type="radio"]:not(:checked) + label::before {
   content: "";
   position: absolute;
   left: 0;
@@ -4887,7 +5261,8 @@ Checkout Area CSS
   border-radius: 50%;
   background: #ffffff;
 }
-.order-details .payment-box .payment-method p [type=radio]:checked + label::after, .order-details .payment-box .payment-method p [type=radio]:not(:checked) + label::after {
+.order-details .payment-box .payment-method p [type="radio"]:checked + label::after,
+.order-details .payment-box .payment-method p [type="radio"]:not(:checked) + label::after {
   content: "";
   width: 12px;
   height: 12px;
@@ -4898,12 +5273,12 @@ Checkout Area CSS
   border-radius: 50%;
   transition: 0.5s;
 }
-.order-details .payment-box .payment-method p [type=radio]:not(:checked) + label::after {
+.order-details .payment-box .payment-method p [type="radio"]:not(:checked) + label::after {
   opacity: 0;
   visibility: hidden;
   transform: scale(0);
 }
-.order-details .payment-box .payment-method p [type=radio]:checked + label::after {
+.order-details .payment-box .payment-method p [type="radio"]:checked + label::after {
   opacity: 1;
   visibility: visible;
   transform: scale(1);
@@ -4940,7 +5315,8 @@ Contact Area CSS
   margin-left: -7px;
   margin-right: -7px;
 }
-.contact-form form .row .col-lg-12, .contact-form form .row .col-lg-6 {
+.contact-form form .row .col-lg-12,
+.contact-form form .row .col-lg-6 {
   padding-left: 7px;
   padding-right: 7px;
 }
@@ -4956,11 +5332,13 @@ Contact Area CSS
 .contact-form form .btn.disabled {
   cursor: not-allowed !important;
 }
-.contact-form form .btn.disabled:hover::before, .contact-form form .btn.disabled:focus::before {
+.contact-form form .btn.disabled:hover::before,
+.contact-form form .btn.disabled:focus::before {
   opacity: 1;
   visibility: visible;
 }
-.contact-form form .btn.disabled:hover::after, .contact-form form .btn.disabled:focus::after {
+.contact-form form .btn.disabled:hover::after,
+.contact-form form .btn.disabled:focus::after {
   opacity: 0;
   visibility: hidden;
 }
@@ -4977,7 +5355,8 @@ Contact Area CSS
   margin-bottom: 0;
   text-align: center !important;
 }
-.contact-form form #msgSubmit.text-danger, .contact-form form #msgSubmit.text-success {
+.contact-form form #msgSubmit.text-danger,
+.contact-form form #msgSubmit.text-success {
   margin-top: 8px;
   font-size: 20px;
   font-weight: 600;
@@ -5161,12 +5540,14 @@ Subscribe Area CSS
   background-color: #8ee9b2;
   transition: 0.5s;
 }
-.newsletter-form button:hover, .newsletter-form button:focus {
+.newsletter-form button:hover,
+.newsletter-form button:focus {
   box-shadow: unset !important;
   background: #121521 !important;
   color: #ffffff !important;
 }
-.newsletter-form button:hover i, .newsletter-form button:focus i {
+.newsletter-form button:hover i,
+.newsletter-form button:focus i {
   background-color: #ffffff;
   color: #121521;
 }
@@ -5348,7 +5729,8 @@ Go Top CSS
   opacity: 1;
   visibility: visible;
 }
-.go-top:hover, .go-top:focus {
+.go-top:hover,
+.go-top:focus {
   color: #ffffff;
   background-color: #19ce67;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
