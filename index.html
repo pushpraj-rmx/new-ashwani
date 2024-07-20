@@ -30,67 +30,7 @@
     </div>
 
     <style>
-      /* FAB Container */
-      .fab-container {
-        position: fixed;
-        bottom: 60px;
-        right: 20px;
-        z-index: 99999;
-      }
 
-      /* FAB Button */
-      .fab-container .fab {
-        background-color: #007bff;
-        color: white;
-        border: none;
-        border-radius: 50%;
-        width: 56px;
-        height: 56px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        cursor: pointer;
-        font-size: 24px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: transform 0.5s ease-in-out;
-      }
-
-      /* FAB Menu */
-      .fab-container .fab-menu {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        bottom: 70px;
-        right: 0;
-        background-color: white;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        overflow: hidden;
-      }
-
-      .fab-container .fab-menu-item {
-        background-color: #007bff;
-        color: white;
-        border: none;
-        padding: 10px 20px;
-        text-align: left;
-        width: 100%;
-        cursor: pointer;
-        transition: background-color 0.5s;
-      }
-
-      .fab-container .fab-menu-item:hover {
-        background-color: #0056b3;
-      }
-
-      /* Animation */
-      .fab-container .fab.open + .fab-menu {
-        display: flex;
-      }
-
-      .fab-container .fab.open {
-        transform: rotate(135deg);
-      }
     </style>
 
     <header class="header-area">
@@ -126,10 +66,10 @@
       <div class="navbar-area">
         <div class="fovia-responsive-nav">
           <div class="container">
-            <div class="fovia-responsive-menu">
+            <div class="fovia-responsive-menu" style="text-align: center;padding-top: 20px;">
               <div class="logo">
                 <a href="index.html">
-                  <img src="assets/img/logo.png" alt="logo" />
+                  <img src="assets/img/logo.webp" alt="logo"  width="100"/>
                 </a>
               </div>
             </div>
@@ -196,7 +136,7 @@
         <div class="row m-0">
           <div class="col-lg-6 col-md-12 p-0">
             <div class="about-image">
-              <img src="assets/img/about-img1.jpg" alt="image" />
+              <img src="assets/img/symptoms-of-infertility.jpg" alt="image" />
             </div>
           </div>
           <div class="col-lg-6 col-md-12 p-0">
@@ -244,7 +184,7 @@
           </div>
           <div class="col-lg-6 col-md-12 p-0">
             <div class="our-mission-image">
-              <img src="assets/img/mission-img1.jpg" alt="image" />
+              <img src="assets/img/cause-of-infertility.jpeg" alt="image" />
             </div>
           </div>
         </div>
@@ -256,7 +196,7 @@
         <div class="row m-0">
           <div class="col-lg-6 col-md-12 p-0">
             <div class="about-image">
-              <img src="assets/img/about-img1.jpg" alt="image" />
+              <img src="assets/img/other.jpg" alt="">
             </div>
           </div>
           <div class="col-lg-6 col-md-12 p-0">
@@ -313,7 +253,7 @@
           </div>
           <div class="col-lg-6 col-md-12 p-0">
             <div class="our-mission-image">
-              <img src="assets/img/mission-img1.jpg" alt="image" />
+              <img src="assets/img/treat.gif" alt="image" />
             </div>
           </div>
         </div>
@@ -370,15 +310,9 @@
                   </div>
                   <label>Select Your Services</label>
                   <select>
-                    <option>Cardiology</option>
-                    <option>Urologic Oncology</option>
-                    <option>Neurology</option>
-                    <option>Medicine</option>
-                    <option>Surgery</option>
-                    <option>Urology</option>
-                    <option>Radiology</option>
-                    <option>Neurosurgery</option>
-                    <option>Bariatric Surgery</option>
+                    <option>Ayurvedic </option>
+                    <option>Infertility</option>
+                    <option>Panchkarma</option>
                   </select>
                 </div>
               </div>
@@ -409,8 +343,8 @@
             <div class="doctor-details-image">
               <img src="assets/img/dr-swati.webp" alt="image" />
 
-              <h3>Dr. Addison Smith</h3>
-              <span>Cardiologists</span>
+              <h3>Dr. Swati Saxena</h3>
+              <!-- <span>Cardiologists</span> -->
 
               <ul class="social">
                 <li>
@@ -480,11 +414,54 @@
             </div>
 
             <div class="col-lg-6 col-md-12">
-              <form class="newsletter-form" data-toggle="validator">
-                <input type="email" class="input-newsletter" placeholder="Enter your email" name="EMAIL" required autocomplete="off" />
-
-                <button type="submit">Subscribe <i class="fas fa-paper-plane"></i></button>
-                <div id="validator-newsletter" class="form-result"></div>
+              <form>
+                <div class="row">
+                  <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                      <div class="icon">
+                        <i class="flaticon-user"></i>
+                      </div>
+                      <label>Your Name</label>
+                      <input type="text" class="form-control" placeholder="Enter Your Name" id="name" name="name" />
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                      <div class="icon">
+                        <i class="flaticon-envelope"></i>
+                      </div>
+                      <label>Your Email</label>
+                      <input type="email" class="form-control" placeholder="Enter Email Address" id="email" name="email" />
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                      <div class="icon">
+                        <i class="flaticon-support"></i>
+                      </div>
+                      <label>Select Your Services</label>
+                      <select>
+                        <option>Ayurvedic </option>
+                        <option>Infertility</option>
+                        <option>Panchkarma</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <div class="form-group">
+                      <div class="icon">
+                        <i class="flaticon-phone-call"></i>
+                      </div>
+                      <label>Your Phone</label>
+                      <input type="text" class="form-control" placeholder="Enter Your Phone" id="text" name="text" />
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-md-12">
+                    <div class="submit-btn pt-5">
+                      <button class="btn btn-primary">Make Appointment <i class="flaticon-right-chevron"></i></button>
+                    </div>
+                  </div>
+                </div>
               </form>
             </div>
           </div>
@@ -579,7 +556,7 @@
         <div class="row m-0">
           <div class="col-lg-6 col-md-12 p-0">
             <div class="faq-image">
-              <img src="assets/img/faq-img1.jpg" alt="image" />
+              <img src="assets/img/faq.jpeg" alt="image" />
             </div>
           </div>
           <div class="col-lg-6 col-md-12 p-0">
